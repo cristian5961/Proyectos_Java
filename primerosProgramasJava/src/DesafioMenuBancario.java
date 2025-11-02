@@ -7,8 +7,8 @@ public class DesafioMenuBancario {
         String tipoDeCuenta = "Corriente";
         double saldoCuenta = 1599.99;
         int opcionCliente = 0;
-        double montoRetiro = 0;
-        double montoDeposito = 0;
+        double montoRetiro;
+        double montoDeposito;
 
         System.out.println("**********************************************");
         System.out.println("Nombre del cliente: " + nombreCliente);
@@ -57,3 +57,4 @@ public class DesafioMenuBancario {
         }
     }
 }
+
